@@ -106,6 +106,8 @@ main h1{
 
     .game {
         height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
         width: 90vmin;
         gap: 1vmin;
     }
@@ -115,6 +117,7 @@ main h1{
         width: 20vmin;
         font-size: 6vmin;
         padding-top: 1vmin;
+        flex: 0 0 calc(33.33% - 1vmin);
     }
 
     #reset-btn, #new-btn {
