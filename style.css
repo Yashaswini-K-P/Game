@@ -113,6 +113,7 @@ main h1{
     }
 
     .box {
+        flex: 1 1 calc(33.33% - 1rem);
         height: 20vmin;
         width: 20vmin;
         font-size: 6vmin;
