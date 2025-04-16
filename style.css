@@ -131,29 +131,3 @@ main h1{
     }
 }
 
-@media (max-width: 480px) {
-    .game {
-        width: 100%;
-        gap: 0.5vmin;
-    }
-
-    .box {
-        height: 25vmin;
-        width: 25vmin;
-        font-size: 5vmin;
-        padding-top: 0.5vmin;
-    }
-
-    #reset-btn, #new-btn {
-        font-size: 4vmin;
-        padding: 12px;
-    }
-
-    #msg {
-        font-size: 6vmin;
-    }
-
-    main h1 {
-        font-size: 10vmin;
-    }
-}
